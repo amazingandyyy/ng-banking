@@ -25,7 +25,6 @@ app.controller('mainCtrl', function($scope, myName, recordsService) {
         } else {
             $scope.order = order;
             document.getElementById(`${order}Scaret`).style.transform = "rotate(180deg)";
-
         }
     }
 
